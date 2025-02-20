@@ -1,0 +1,40 @@
+html{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.head{
+    background-color: blue;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.table-btn{
+    border: none;
+    background-color: lightsteelblue;
+    padding: 7px;
+    /* margin: 2px; */
+}
+
+
+.input-btn{
+
+    border: none;
+    background-color: aqua;
+    /* color: white; */
+    padding: 10px;
+    /* margin: 2px; */
+
+}
+
+.out-screen{
+    /* background-color: mediumslateblue; */
+    background-color: lightslategray;
+}
