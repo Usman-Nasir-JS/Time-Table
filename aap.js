@@ -33,5 +33,7 @@ function table(){
     
     }
 
+    input.value = "";
+
 }
 

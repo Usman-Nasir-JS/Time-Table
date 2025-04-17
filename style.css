@@ -7,8 +7,8 @@ html{
 
 .head{
     background-color: blue;
-    border: 2px dashed black;
-    padding: 10px;
+    border: 5px dashed black;
+    padding: 15px;
 }
 
 .center{
@@ -16,23 +16,27 @@ html{
 }
 
 
+.input-btn{
+    
+    border: 4px double black;
+    background-color: aqua;
+    /* color: white; */
+    padding: 14px;
+    /* margin: 2px; */
+    
+}
+
+
 .table-btn{
     border: none;
     background-color: lightsteelblue;
-    padding: 7px;
-    /* margin: 2px; */
-}
-
-
-.input-btn{
-
-    border: none;
-    background-color: aqua;
-    /* color: white; */
     padding: 10px;
+    border: 2px dotted black;
+    border-radius: 5px;
+    cursor: pointer;
     /* margin: 2px; */
-
 }
+
 
 .out-screen{
     /* background-color: mediumslateblue; */
