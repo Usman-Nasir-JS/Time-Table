@@ -1,39 +1,29 @@
-
-// var heading=document.querySelector("#head");
-
-
-// function table(){
-
-//     for(var i=1; i<=10; i++){
-       
-//         console.log(`${heading.value} x ${i} = ${heading.value*i}`);
-    
-//     }
-
-// }
-
-
-
-
+console.log("Hello world!");
 
 
 var input = document.querySelector("#input");
-
 var output = document.querySelector("#output")
+
 
 function table(){
 
     tableError.innerHTML = "";
 
-    output.innerHTML = "<h1>Your Written Table Here!</h1>"
+    output.innerHTML = "<h2>Your Written Table Here!</h2>"
 
-    for(var i=1; i<=10; i++){ 
+    if (input.value === "") {
+        alert("Please Enter the Number!");
+        console.error("Input field is empty");
+        output.innerHTML = "";
+    }
+    else {
+        for(var i = 1; i <= 10; i++) { 
 
-        output.innerHTML += `${input.value} x ${i} = ${input.value * i}<br/>`
+            output.innerHTML += `${input.value} x ${i} = ${input.value * i} <br/>`
     
+        }
     }
 
     input.value = "";
 
 }
-
